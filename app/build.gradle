@@ -30,6 +30,12 @@ android {
 
 dependencies {
 
+    def nav_version = "2.9.0"
+    
+    // Views/Fragments Integration
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
